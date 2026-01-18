@@ -5,8 +5,11 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Team Rhythm
 - Daily standups (15 min) — focus on progress, blockers, dependencies
+  - Include Developers, QA Lead, DevOps Engineer, and PM
 - Weekly delivery sync — show progress, updates, and flagged risks
+  - Include core team plus UX Designer, Business Analyst, and Stakeholder Representatives as needed
 - Demo/Review at the end of each sprint or milestone
+  - Include full team and Stakeholder Representatives to validate deliverables
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
@@ -17,11 +20,12 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Unit tests for new logic (Developers)
+- Integration tests where applicable (Developers with DevOps support)
+- End-to-end smoke tests for critical flows before release (QA Lead coordinates)
+- Security scanning in CI (DevOps Engineer maintains)
+- Manual QA for feature acceptance when needed (QA Lead)
+- UX validation against design specifications (UX Designer reviews with QA)
 
 ## Reporting & Metrics
 - Track velocity and burndown
@@ -29,12 +33,14 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 1: Team-level triage in daily standup (Developers, QA, DevOps)
+- Level 2: PM escalates to Product Lead and dependent teams; BA or Stakeholder Rep may assist with business-side blockers
+- Level 3: Sponsor-level escalation for business-impacting issues (via Stakeholder Representatives)
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
-- [ ] CI configured for tests and lint
-- [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] CI configured for tests and lint (DevOps Engineer)
+- [ ] Test strategy and quality gates defined (QA Lead)
+- [ ] Design handoff process established (UX Designer)
+- [ ] Regular demos scheduled (with Stakeholder Representatives)
+- [ ] Risk register updated weekly (PM with input from all roles)

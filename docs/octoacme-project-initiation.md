@@ -28,13 +28,19 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
 - Proposed team / roles:
+  - Core roles: PM, Product Manager, Developers
+  - Specialized roles (as needed): UX Designer, Business Analyst, DevOps Engineer, QA Lead
+  - Stakeholder Representatives (identify groups: e.g., Sales, Support, Legal)
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Identify required specialized roles (UX, BA, DevOps, QA) based on project needs
+- [ ] Assign Stakeholder Representatives for key business groups
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Schedule onboarding sessions for new team members (see Role Onboarding Checklist in octoacme-roles-and-personas.md)
 
 ## Decision Gate
 Move to planning when:
